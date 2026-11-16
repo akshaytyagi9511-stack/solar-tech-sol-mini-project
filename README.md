@@ -25,4 +25,11 @@ The project follows a structured frontend development approach:
   - **Active Navigation Highlighting:** Automatically detects the current page URL and highlights the active menu link across all pages.
   - **Dynamic Product Table & Search (`products.html`):** Renders solar packages dynamically from a JavaScript object array and allows real-time keyword searching using `.find()`.
   - **Cross-Page Quote Selection (`localStorage`):** Clicking **Select** on any package saves the chosen system in `localStorage` and auto-fills the message box upon redirecting to `contact.html`.
-  - **Quick Savings Estimator & Statistics (`calculator.html`):** Calculates
+  - **Quick Savings Estimator & Statistics (`calculator.html`):** Calculates estimated annual savings (`Monthly Bill × 12 × 0.8`), recommends an ideal package size, and computes aggregate package metrics using `.map()`, `.reduce()`, and `.filter()`.
+  - **Interactive Inquiry Form (`contact.html`):** Provides live typing feedback via `input` events and validates submissions with instant confirmation alerts.
+- **Project Impact & Learning Outcomes:**
+  - Delivered a consistent, mobile-friendly user interface without relying on external CSS or JS frameworks.
+  - Demonstrated clean separation of concerns across HTML structure, CSS styling, and modular JavaScript logic.
+
+## 6. Screenshot
+- **Screenshot & Project Report (PDF):** https://github.com/akshaytyagi9511-stack/solar-tech-sol-mini-project/blob/f614519808a237a12f704bfa1213ead018bc8821/Solar%20Tech%20Solutions%20Project%20Report%20%26%20Screenshots.pdf
