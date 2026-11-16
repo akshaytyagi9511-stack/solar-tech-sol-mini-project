@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Tech - Products</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <div class="nav-bar">
+        <h2>Solar Tech Solutions</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Solar</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="calculator.html">Calculator</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Our Solar Packages</h2>
+        
+        <!-- Search/Filter feature using array methods taught in class -->
+        <p>
+            <input type="text" id="searchPackage" placeholder="Search package (e.g. 3 kW, 5 kW)">
+            <button id="searchPkgBtn">Search</button>
+        </p>
+        <p id="searchPkgResult" style="font-weight: bold;"></p>
+
+        <table border="1" cellpadding="8" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>System Capacity</th>
+                    <th>Ideal For</th>
+                    <th>Estimated Cost</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="productTableBody">
+                <!-- Dynamically populated or displayed -->
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>What's Included in Every Package?</h2>
+        <p>When you purchase any of our solar packages above, you get a complete turnkey setup. We make sure you don't have to source parts separately:</p>
+        <ul>
+            <li>High-efficiency monocrystalline solar panels with a 25-year performance warranty.</li>
+            <li>Smart grid-tied inverter with safety protection features.</li>
+            <li>Heavy-duty galvanized iron mounting structures designed to withstand wind and rain.</li>
+            <li>DC/AC cables, safety connectors, and complete professional installation service.</li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Tech - Calculator</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <div class="nav-bar">
+        <h2>Solar Tech Solutions</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Solar</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="calculator.html">Calculator</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Quick Savings Estimator</h2>
+        <p>Enter your average monthly electricity bill to estimate annual solar savings:</p>
+        <p>
+            <label>Monthly Bill (in ₹):</label><br>
+            <input type="number" id="monthlyBill" placeholder="e.g. 3000">
+        </p>
+        <button id="calcBtn">Calculate Savings</button>
+        <h3 id="resultText"></h3>
+    </div>
+
+    <!-- Statistics Section using array methods (map, reduce, filter) -->
+    <div class="section">
+        <h2>Solar Savings Statistics</h2>
+        <button id="showStatsBtn">Show Package Statistics</button>
+        <p id="statistics" style="margin-top: 10px; font-weight: bold;"></p>
+    </div>
+
+    <div class="section">
+        <h2>Tips to Maximize Your Savings</h2>
+        <p>Once your solar system is installed, here is how you can make the most out of it:</p>
+        <ul>
+            <li>Run heavy appliances like washing machines or water pumps during peak sunlight hours (10 AM to 3 PM) to use direct solar power.</li>
+            <li>Clean dust off your solar panels once every month to maintain maximum energy absorption.</li>
+            <li>Keep track of your monthly meter readings to ensure your system is performing at its best.</li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

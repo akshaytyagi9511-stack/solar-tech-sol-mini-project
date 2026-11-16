@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 20px;
+    padding: 0;
+    color: #000000;
+}
+
+.nav-bar {
+    background-color: #025955;
+    color: #ffffff;
+    padding: 10px;
+    border: 1px solid #000000;
+}
+
+.nav-bar h2 {
+    margin: 0 0 10px 0;
+    color: #ffffff;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.nav-bar a {
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Active Navigation Highlight */
+.nav-bar a.active {
+    color: #ffeb3b;
+    border-bottom: 2px solid #ffeb3b;
+}
+
+.section {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+}
+
+.home-center {
+    text-align: center;
+}
+
+.solar-photo {
+    border: 1px solid #000000;
+    padding: 3px;
+    background-color: #ffffff;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto;
+}
+
+table {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+th {
+    background-color: #e0f2f1;
+}
+
+input[type="text"], input[type="email"], input[type="number"], textarea {
+    border: 1px solid #777777;
+    padding: 5px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+input[type="submit"], button {
+    background-color: #025955;
+    color: #ffffff;
+    border: 1px solid #000000;
+    padding: 6px 15px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #013835;
+}
+
+/* Classes matching class notes */
+.highlight {
+    background-color: lightyellow;
+    border: 1px dashed #025955;
+}
+
+.passed {
+    color: green;
+    font-weight: bold;
+}
+
+.failed {
+    color: red;
+    font-weight: bold;
+}
